@@ -362,6 +362,10 @@ a:hover {
     z-index: 2;
 }
 
+.text{
+    font-size: 25px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -571,7 +575,8 @@ a[data-lightbox]:hover img {
     margin: 0 auto 0;
 }
 
-#lightbox-modal .modal-dialog img {
+#lightbox-modal .modal-dialog 
+ {
     max-height: 90vh;
     margin: 0 auto;
 }
@@ -1026,6 +1031,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    
 }
 
 @media (max-width: 400px) {
@@ -1033,10 +1039,14 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .text{
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+    
 }
