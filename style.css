@@ -363,7 +363,13 @@ a:hover {
 }
 
 .text{
-    font-size: 25px;
+    font-size: 1.5em;
+}
+#partenariat{
+    
+    display: flex;
+    width: 100%;
+    margin-top: 2em;
 }
 
 @media (min-width: 768px) {
@@ -780,7 +786,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    
+    color:#FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
